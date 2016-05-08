@@ -14,10 +14,10 @@ dist_pkgdata_DATA = \
 	defaultwizard.xml \
 	defaultsatlists.xml \
 	dreampackagewizard.xml \
-	skin_default \
+	skin_default.xml \
 	skin.xml \
 	radio.mvi \
-	tutorialwizard \
+	tutorialwizard.xml \
 	userinterfacepositionerwizard.xml \
 	videowizard.xml \
 	rc_wb_desc.png \
