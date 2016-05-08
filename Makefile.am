@@ -4,7 +4,7 @@ ACLOCAL_AMFLAGS = -I m4
 
 installdir = $(pkglibdir)/python
 install_PYTHON = Navigation.py \
-	NavigationInstance.py RecordTimer.py PowerTimer.py ServiceReference.py \
+	NavigationInstance.py RecordTimer.py ServiceReference.py \
 	keyids.py keymapparser.py mytest.py skin.py timer.py GlobalActions.py \
 	e2reactor.py pyo_patcher.py BoxBrandingTest.py
 
