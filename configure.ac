@@ -684,6 +684,7 @@ lib/python/Plugins/SystemPlugins/SkinSelector/Makefile
 lib/python/Plugins/SystemPlugins/SkinSelector/meta/Makefile
 lib/python/Tools/Makefile
 lib/python/Blackhole/Makefile
+lib/python/Plugins/DemoPlugins/Makefile
 po/Makefile
 main/Makefile
 tools/Makefile
