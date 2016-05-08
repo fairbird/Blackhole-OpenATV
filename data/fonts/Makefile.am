@@ -14,9 +14,7 @@ dist_install_DATA = \
 	nmsbd.ttf \
 	nmsbd2.ttf \
 	tiny.ttf \
-	titles.ttf \
-	tuxtxt.otb \
-	tuxtxt.ttf
+	titles.ttf
 
 if VUULTIMO
 dist_install_DATA += analog.ttf Army_Regular_L.ttf Army_Bold_G.ttf army-digital.ttf
