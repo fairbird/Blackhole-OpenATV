@@ -1,4 +1,3 @@
-#Embedded file name: /usr/lib/enigma2/python/Blackhole/BhEI.py
 from Screens.Screen import Screen
 from Components.Label import Label
 from Components.ServiceEventTracker import ServiceEventTracker
@@ -271,7 +270,7 @@ class Nab_ExtraInfobar(Screen):
                         nmsg += '    Provider: ' + x1
                     elif x[0] == 'provider':
                         nmsg += '    Provider: ' + x1
-                    elif x[0] == 'using' or x[0] == 'source':
+                    elif x[0] == 'using' or x[0] == 'protocol':
                         if x1 == 'emu':
                             self['button_emu'].show()
                         elif x1 == 'sci' or x1 == 'smartreader+':
@@ -294,6 +293,8 @@ class Nab_ExtraInfobar(Screen):
                     elif x[0] == 'address':
                         netinfo += 'Address:' + x1
                     elif x[0] == 'from':
+                        netinfo += 'Address:' + x1
+                    elif x[0] == 'source':
                         netinfo += 'Address:' + x1
                         pos = x1.find('.')
                         if pos > 1:
