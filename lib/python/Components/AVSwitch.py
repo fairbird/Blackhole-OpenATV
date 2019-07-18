@@ -4,7 +4,7 @@ from enigma import eAVSwitch, getDesktop
 from SystemInfo import SystemInfo
 from os import path as os_path
 from os import access, W_OK
-#test1
+
 class AVSwitch:
 	def setInput(self, input):
 		INPUT = { "ENCODER": 0, "SCART": 1, "AUX": 2 }

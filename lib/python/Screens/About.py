@@ -5,7 +5,7 @@ from Components.Harddisk import harddiskmanager
 from Components.NimManager import nimmanager
 from Components.About import about
 import os
-#test1
+
 from Tools.DreamboxHardware import getFPVersion
 
 class About(Screen):
